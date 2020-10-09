@@ -1,0 +1,5 @@
+﻿FUNCIONAMIENTO:
+- Para poder añadir sus Condiciones Generales de Venta (CGV), debe colocar un documento en el directorio mycompany / cgv / con el nombre de cgv.pdf
+- Si usa el módulo multicompañía, el documento debe estar en la ruta x / mycompany / cgv / donde x es la referencia de la entidad.
+- Para configurar CGV internacionales, solo debe crear un archivo para cada país (ejemplo: en_US para inglés)
+- Para mencionar la cantidad de un adelanto en RUBIS, simplemente cree un atributo adicional de tipo decimal propal, que puede llamar "depósito", u otro nombre de su elección. El porcentaje deberá indicarlo en el presupuesto.

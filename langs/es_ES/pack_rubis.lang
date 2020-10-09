@@ -1,0 +1,46 @@
+# Dolibarr language file - Source file is es_ES - propal
+
+### Descriptions ###
+PDFrubisDescription=Plantilla de presupuesto con logotipo, zona de firma, marca de plegado y condiciones (Pack Rubis)
+PDFedisonDescription=Plantilla de pedido con logotipo, marca de plegado y condiciones (Pack Rubis)
+PDFhomardDescription=Plantilla de factura con logotipo, marca de plegado y condiciones (Pack Rubis)
+PDFbeaujolaisDescription=Plantilla de pedido a proveedor con imágenes de producto y CGC (Ruby Pack)
+PDFsophieDescription=Modelo solicitud / presupuesto de proveedor de precio con CGC (Pack Rubis)
+PDFbourgogneDescription=Plantilla de pedido a proveedor con CGC (Ruby Pack)
+
+### Modèle Rubis ###
+GoodForAgreement=Firmado y conforme :
+ReturnSigned1=Por favor devuelva firmado y fechado,
+ReturnSigned2=con sello oficial.
+RubisReturnSigned3=Mention manuscrite
+RubisReturnSigned4="Al firmar, está aceptando las condiciones generales adjuntas"
+RubisDateSigned=___ / ___ / ______
+RubisPlaceSigned=Firmado en ___________________
+RubisSignatureStamp=Sello y firma del cliente
+PaymentDepositValue=Para confirmar su pedido, será necesario el adelanto calculado de
+PaymentDepositValue2= Euros
+
+### Modèle Edison ###
+
+### Modèle Homard ###
+##### LCR #####
+HomardDocLCR1=Contra esta letra de cambio
+HomardDocLCR2=Estipulado sin cargo
+HomardDocLCR3=Por favor, abone la cantidad indicada
+HomardDocLCR4=Debajo en el orden de :
+HomardDocLCR5=Código de moneda
+HomardDocLCR6=Cantidad para control
+HomardDocLCR7=Fecha de creación
+HomardDocLCR8=Madurez
+HomardDocLCR9=Solo LCR
+HomardDocLCR10=Importe
+HomardDocLCR11=Código del establecimiento
+HomardDocLCR12=Código de caja
+HomardDocLCR13=N° de cuenta
+HomardDocLCR14=Clé RIB
+HomardDocLCR15=Domiciliacion Bancaria
+HomardDocLCR16=Aceptacion o aval
+HomardDocLCR17=desde el tiro
+HomardDocLCR18=NIF del tomador
+HomardDocLCR19=Firma del tomador
+HomardDocLCR20=No escriba nada debajo de esta línea

@@ -1,0 +1,124 @@
+# Dolibarr language file - fr_FR - products
+CHARSET=UTF-8
+#
+# Admin page
+#
+Rubis=Pack Rubis
+RubisVersion=Rubis 11.0.1
+RubisSetup = Configuration de Rubis
+Setup = Paramétrage
+Settings = Paramétre
+SetupPage = Paramétrage de Rubis
+RubisNoConfiguration = Pas de paramétrage dans cette version
+MonDolibarrPresent=Mon-Dolibarr, l'hébergement infogéré avec assistance présente le pack d'éditions "Rubis"
+RubisManualOptions=- Pour pouvoir joindre les cgv, celles-ci doivent êtres placées dans les documents de Dolibarr dans mycompany/cgv/ sous le nom de cgv.pdf (nom par défaut)</br>- Pour mettre en place des cgv internationales, il suffit de placer le pdf dans un dossier avec le code pays (exemple pour l'anglais : mycompany/cgv/en_US)</br>- Les images de logo doivent être placées dans les documents de Dolibarr dans mycompany/logo
+
+#
+# Descriptions des modèles
+#
+PDFrubisDescription=Modèle de proposition/devis avec logo, repère de pliage et CGV (Pack Rubis)
+PDFedisonDescription=Modèle de commande avec logo, repère de pliage et CGV (Pack Rubis)
+PDFepinocheDescription=Modèle d'expédition avec logo, repère de pliage (Pack Rubis)
+PDFhomardDescription=Modèle de facture avec logo, repère de pliage et CGV (Pack Rubis)
+PDFaltoDescription=Modèle de contrat avec logo, repère de pliage et CGV (Pack Rubis)
+PDFbeaujolaisDescription=Modèle de commande fournisseur avec images produits et CGA (Pack Rubis)
+PDFsophieDescription=Modèle de devis fournisseur/demande de prix avec logo, repère de pliage et CGA (Pack Rubis)
+PDFbourgogneDescription=Modèle de commande fournisseur avec logo, repère de pliage et CGA (Pack Rubis)
+
+#
+# Settings
+#
+RUBIS_LOGO_RUBIS=<b>RUBIS : </b>Nom du fichier logo spécifique sur le devis client RUBIS</br><i>L'image doit être présente dans documents/mycompany/logos</i>
+RUBIS_LINE_COLOR=<b>RUBIS : </b>Couleur (RVB) des cadres sur les devis RUBIS</br><i>Ex. rouge = 200,0,0</i>
+RUBIS_DEPOSIT_COLOR=<b>RUBIS : </b>Couleur (RVB) de la mention d'acompte sur les devis RUBIS</br><i>Ex. rouge = 200,0,0</i>
+
+RUBIS_LOGO_EDISON=<b>EDISON : </b>Nom du fichier logo spécifique sur la commande client EDISON</br><i>L'image doit être présente dans documents/mycompany/logos)</i>
+RUBIS_DEPOSIT_COLOR_EDISON=<b>EDISON : </b>Couleur (RVB) de la mention d'acompte la commande client EDISON</br><i>Ex. rouge = 200,0,0</i>
+RUBIS_LINE_COLOR_EDISON=<b>EDISON : </b>Couleur (RVB) des cadres sur la commande client EDISON</br><i>Ex. rouge = 200,0,0</i>
+
+RUBIS_LOGO_HOMARD=<b>HOMARD : </b>Nom du fichier logo spécifique sur la facture client HOMARD</br><i>L'image doit être présente dans documents/mycompany/logos)</i>
+RUBIS_LINE_COLOR_HOMARD=<b>HOMARD : </b>Couleur (RVB) des cadres sur la facture client HOMARD</br><i>Ex. rouge = 200,0,0</i>
+RUBIS_HOMARD_MODE_TRAITE=<b>HOMARD : </b>Code du moyen de paiement pour édition de la traite avec la facture client HOMARD</br><i>Le mode doit être activé dans le dictionnaire</i>
+
+RUBIS_LOGO_EPINOCHE=<b>EPINOCHE : </b>Nom du fichier logo spécifique l'expédition client EPINOCHE</br><i>L'image doit être présente dans documents/mycompany/logos)</i>
+
+RUBIS_LOGO_SOPHIE=<b>SOPHIE : </b>Nom du fichier logo spécifique dans le devis fournisseur SOPHIE</br><i>L'image doit être présente dans documents/mycompany/logos)</i>
+RUBIS_LOGO_BOURGOGNE=<b>BOURGOGNE : </b>Nom du fichier logo spécifique dans la commande fournisseur BOURGOGNE et BEAUJOLAIS</br><i>L'image doit être présente dans documents/mycompany/logos)</i>
+
+RUBIS_SIGNATURE_AREA=Imprimer le cadre signature Rubis (arrondi) sur les documents
+RUBIS_SIGNATURE_AREA2=Imprimer le cadre pour mention manuscrite Rubis sur les documents
+RUBIS_FOLD_MARK=Imprimer le repère de pliage sur les documents
+MAIN_GENERATE_DOCUMENTS_SHOW_FOOT_DETAILS=Imprimer les coordonnées de l'entreprise en bas de page
+PDF_BANK_HIDE_NUMBER_SHOW_ONLY_BICIBAN=N'afficher que l'IBAN + BIC sur les documents (norme ISO 13616 + SEPA)
+RUBIS_WARNING_ON_PDF=Affiche un tampon d'avertissement sur les documents (Homard)</br><i>Les traductions des 5 lignes de texte doivent être enregistrées (RUBIS_WARNING_LINE1, RUBIS_WARNING_LINE2...)</i>
+RUBIS_WARNING_IMG=Ajoute une image dans le cadre d'avertissement.
+
+#
+# About page
+#
+AboutRubis = A Propos de Rubis
+AboutPage = A Propos de Rubis :
+MyModuleAbout = A Propos Rubis
+MyModuleAboutPage = A Propos Rubis
+SupportDevelopment=Ce module est gratuit, aidez son développement et son support
+
+#
+# ChangeLog page
+#
+ChangeLog=Evolutions
+Updates=Mises à jour de Rubis
+RubisHistoryUpdates= Historique des mises à jour
+#
+# Information pour Chorus
+#
+RubisPromiseCode=<b>N° d'engagement : </b>
+RubisContractNumber=<b>N° de marché : </b>
+#
+# Modèle RUBIS
+#
+RubisGoodForAgreement=Bon pour accord :
+RubisReturnSigned1=À retourner signé, daté,
+RubisReturnSigned2=avec cachet de l'entreprise.
+RubisReturnSigned3=Mention manuscrite
+RubisReturnSigned4="Bon pour accord sur les conditions générales jointes"
+RubisDateSigned=Le ___ / ___ / ______
+RubisPlaceSigned=A ___________________
+RubisSignatureStamp=Cachet et signature du client
+
+RubisPaymentDepositValue=Pour valider votre commande, merci de régler l'acompte calculé, soit la somme de 
+RubisPaymentDepositValue2= Euros
+#
+# Modèle Homard
+#
+### Traite #####
+HomardLettreLCR=Madame, Monsieur,<br/><br/>Pour régler par traite la facture référencée ci-dessus, merci de compléter la lettre de change ci-dessous et de nous la retourner dans les meilleurs délais.<br/><br/>Nous restons à votre disposition pour toute information complémentaire.<br/>Cordialement.<br/><br/>Le service comptabilité.
+HomardDocLCR1=Contre cette lettre de change
+HomardDocLCR2=Stipulée sans frais
+HomardDocLCR3=Veuillez payer la somme indiquée
+HomardDocLCR4=Ci-dessous à l'ordre de :
+HomardDocLCR5=Code Monnaie
+HomardDocLCR6=Montant pour contrôle
+HomardDocLCR7=Date de création
+HomardDocLCR8=Echéance
+HomardDocLCR9=LCR Seulement
+HomardDocLCR10=Montant
+HomardDocLCR11=Code établissement
+HomardDocLCR12=Code guichet
+HomardDocLCR13=N° de compte
+HomardDocLCR14=Clé RIB
+HomardDocLCR15=Domiciliation bancaire
+HomardDocLCR16=Acceptation ou aval
+HomardDocLCR17=du tiré
+HomardDocLCR18=N° SIREN du tiré
+HomardDocLCR19=Signature du tireur
+HomardDocLCR20=Ne rien inscrire au dessous de cette ligne
+
+### Modèle Alto ###
+ALTO_ENABLE_SIGNATURE=<b>ALTO : </b>Imprimer la zone de signature sur le contrat ALTO
+AltoContractCard=Contrat de service
+AltoProvider=Le Prestataire
+AltoCustomer=Le Client
+AltoTemplateNotFound=Modèle de document non trouvé
+
+### Modèle Epinoche ###
+EpinocheShippingDate=Date d'envoi 

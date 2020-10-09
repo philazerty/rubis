@@ -1,0 +1,47 @@
+# Dolibarr language file - es_ES - products
+# For Rubis 6.1.0
+CHARSET=UTF-8
+#
+# Admin page
+#
+Rubis=Rubis Pack
+RubisSetup = Setup de Rubis
+Setup = Setup
+Settings = Configuración
+SetupPage = Setup de Rubis
+RubisNoConfiguration = Sin configuración en esta versión
+MonDolibarrPresent=Mon-Dolibarr present Rubis Pack
+
+#
+# Settings
+#
+RUBIS_SIGNATURE_AREA=Imprimir espacio de firma Ruby entre comillas
+RUBIS_FOLD_MARK=Imprimir marca de pliegue para ensobrado
+RUBIS_SIGNATURE_AREA2=Agregar el marco para firma manuscrita en Rubis
+
+MAIN_GENERATE_DOCUMENTS_SHOW_FOOT_DETAILS=Imprimir información de la compañía en la parte inferior de la página
+RUBIS_LOGO_RUBIS=Nombre del archivo de logotipo específico en presupuesto RUBIS (La imagen debe estar presente en los documentos / mycompany / logos)
+RUBIS_LOGO_EDISON=Nombre archivo de logotipo específico en el pedido EDISON (La imagen debe estar presente en los documentos / mycompany / logos)
+RUBIS_LOGO_HOMARD=Nombre del archivo de logotipo específico en la factura de HOMARD (la imagen debe estar presente en los documentos / mycompany / logos)
+RUBIS_DEPOSIT_COLOR=Color (RGB) del adelanto solicitado en modelo de presupuesto RUBIS (por ejemplo, Rojo = 200,0,0)
+RUBIS_HOMARD_MODE_TRAITE=Código de los medios de pago para la edición del ordeño en HOMARD </ br> <i> El modo debe estar activado en el diccionario </ i>
+RUBIS_LOGO_BOURGOGNE=Nombre del archivo del logotipo específico en el comando del proveedor BOURGOGNE </ br> <i> La imagen debe estar presente en documentos / mycompany / logos) </ i>
+RUBIS_LOGO_SOPHIE= Nombre del archivo de logotipo específico en la cotización del proveedor SOPHIE </ br> <i> La imagen debe estar presente en documentos / mycompany / logos) </ i>
+
+
+
+#
+# About page
+#
+AboutRubis = Acerca de Rubis
+AboutPage = Acerca de Rubis :
+MyModuleAbout = Acerca de Rubis
+MyModuleAboutPage = Acerca de Rubis
+SupportDevelopment=Este módulo es gratuito, lo que ayuda a su desarrollo y su soporte
+
+#
+# ChangeLog page
+#
+ChangeLog=Actualizaciones
+Updates=Actualizaciones Rubis
+HistoryUpdates= Historial de Actualizaciones
